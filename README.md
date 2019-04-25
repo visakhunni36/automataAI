@@ -1,7 +1,7 @@
 # automataAI
 
 
-test
+test 1
 
 
 
