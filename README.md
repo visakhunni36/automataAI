@@ -1,1 +1,15 @@
 # automataAI
+
+
+test
+
+
+
+
+
+
+
+
+
+
+
