@@ -4,10 +4,95 @@ The functionalities of the app
 -------------------------------
 
 
+The automataAI is a platform specifically designed for the digital marketing automation.
+
+The core concepts of focus are,
+	(i)   UI/UX       - the journey designer
+	(ii)  Scalability - robust architecture for scalability
+	(iii) AI          - something beyond the current platforms
+
+
+Phase - 1
+----------
+The UI/UX of the app
+
+Phase - 2
+----------
+The architecture of the app
+
+Phase - 3
+----------
+Integrating AI capabilities
 
 
 
+Phase - 1
+----------
+The basic views are,
 
+	(i)   Login page
+	(ii)  Rules dashboard
+	(iii) Analytics for the rules
+	(iv)  Settings page
+	(v)   User management page
+	(vi)  Logout page
+	(vii) Create/Edit rules
+
+
+
+	(i)   Login page
+	-----------------
+	-> simply login with the password and username
+	-> default password will be there for the admin
+
+
+	(ii) Rules dashboard
+	---------------------
+	-> there will be box for creating the new rule
+	-> link view/edit the existing rules
+	-> link for analytics
+	-> abstract overview of the rules
+	-> link to settings/manage users/logout
+
+
+	(iii) Analytics for the rules
+	------------------------------
+	-> Sankey diagrom of the journeys
+	-> option to see perfomance overtime
+	-> traffic-conversion graph
+	-> best practice recommendations
+	-> natural language generated narration
+
+
+	(iv) Settings page
+	-------------------
+	-> change password
+	-> usage overview
+	-> health of resources
+
+
+	(v) User management page
+	-------------------------
+	-> add or remove users
+	-> add/remove/edit previlages
+	-> user analytics
+
+
+	(vi) Logout page
+	-----------------
+	-> login again link
+	
+
+	(vii) Create/Edit Rules
+	------------------------
+	-> top there will be search bar which will give you the instructions for help queries
+	-> left panel contains the draggable elements
+	-> left side contains the droppable canvas
+	-> the individual elements in the canvas are itself capable of giving the abstract analytics
+	-> there is multiple right panels, they provide,
+			-> smart suggestions
+			-> help
+			-> edit element values
 
 
 
