@@ -3,12 +3,76 @@
 Design the architecture
 ------------------------
 
+directory structure
+
+public-
+	- app.py
+	- config.py
+	- README.md
+	- DOCKER
+	- docker-compose.yml
+	- requirements.txt
+	- static
+		- css
+		- js
+		- icons
+		- images
+	- templates
+		- components
+		- page_1
+		- page_2
+		- etc
+	- controllers
+		- page_controller_1
+		- page_controller_2
+		- etc
+	- responses
+		- page_response_1
+		- page_response_2
+		- etc
+	- routes
+		- page_router_1
+		- page_router_2
+		- etc
+	- models
+		- model_1
+		- model_2
+		- etc
+	- assets
+		- cronjobs
+		- ml_pipeline
+		- logging
+	- core
+		- controller
+		- response
+		- route
+		- model
+		- database
+			- mysql_db
+			- nosql
+		- queries
+		- workers
+		- algorithsms
+		- pipelines
+		- authentication
+		- watchdog
+		- automation
+			- preprocessor
+			- rule_synthesizer
+			- reconstructor
+			- updater
+		- tester
+			- automation_rule_tester
+			- data_pumping
+			- UI_element_tester
+			- sample_data
+				- data.csv
+		- cache
+			- cache_cluster
+			- cache_priority
 
 
-
-
-
-
+Need more thoughts on the scaling
 
 
 
