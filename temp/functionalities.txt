@@ -81,7 +81,7 @@ The basic views are,
 	(vi) Logout page
 	-----------------
 	-> login again link
-	
+
 
 	(vii) Create/Edit Rules
 	------------------------
@@ -93,7 +93,6 @@ The basic views are,
 			-> smart suggestions
 			-> help
 			-> edit element values
-
 
 
 
