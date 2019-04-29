@@ -1,0 +1,35 @@
+version: '2'
+services:
+    analytics:
+        build: .
+        ports:
+            - "5000:5000"
+        volumes:
+            - .:/code
+        depends_on:
+            - redis
+            - dbMysql
+            - dbMongo
+    redis:
+        image: redis
+    dbMysql:
+        image: mysql:8.0.3
+        restart: always
+        environment:
+            MYSQL_ROOT_PASSWORD: automataMySQLUpAndRun@123
+            MYSQL_DATABASE: automataAI
+
+    dbMongo:
+        image: mongo:3.6.2
+        restart: always
+        ports:
+            - 27017:27017
+        environment:
+            MONGO_INITDB_ROOT_USERNAME: root
+            MONGO_INITDB_ROOT_PASSWORD: automataNoSQLUpAndRun@123
+
+    adminer:
+            image: adminer
+            restart: always
+            ports:
+                - 8080:8080
