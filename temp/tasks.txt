@@ -9,6 +9,11 @@ create the mvp in 25 days
 -> set up main docker compose file - OK
 -> test the containers - OK
 
+
+-> create plane html templates
+		-> login 			- OK
+		-> rules dasboard	
+
 -> setup materialize
 -> create the basic views
 
